@@ -1,0 +1,51 @@
+body {
+    background: burlywood;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.heading {
+    color:crimson;
+}
+
+
+.timer{
+    color:#fff;
+    text-align: center;
+    width: 20rem;
+    height: 20rem;
+    border: 5px solid #fff;
+    border-radius: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row{
+    width: 100%;
+}
+
+.btn {
+    padding: 0;
+}
+
+.fa-play, .fa-redo-alt{
+    color: #fff;
+    border: 2px solid transparent;
+    padding: 1rem;
+    border-radius: 2rem;
+}
+
+.fa-play:hover, .fa-redo-alt:hover{
+    color: crimson;
+    border: 2px solid crimson;
+    transition: 0.3s ease;
+}
+
+.show_message {
+    display: block;
+    padding: 1rem 0;
+    color: burlywood;
+    background: crimson;
+    border-radius: 0.5rem;
+    transition: 0.5s ease;
+  }
